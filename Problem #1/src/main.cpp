@@ -140,8 +140,6 @@ int main()
                 newSec = to_string(sec);
             }
             string k = newHour + ":" + newMinute + ":" + newSec;
-            //cout << hour<< minute<< sec <<endl;
-            cout << k << endl;
             print(k);
 
             if(hour == 0 && minute == 0 && sec == 0){
